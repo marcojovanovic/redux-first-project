@@ -1,11 +1,12 @@
 import React from 'react'
-import ReduxTodoApp from './reduxTodo/ReduxTodoApp';
+
+import CartApp from './cart/CartApp'
 
 
 const App = () => {
 	return (
 		<div >
-		  <ReduxTodoApp />
+		  <CartApp />
 		</div>
 	);
 };

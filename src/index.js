@@ -4,15 +4,14 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
-import store from './reduxTodo/store';
 
-import { Provider } from 'react-redux';
+import { CartProvider} from './cart/context'
 
 ReactDOM.render(
   <React.StrictMode>
-    <Provider store={store}>
+    <CartProvider >
       <App />
-    </Provider>
+    </CartProvider>
   </React.StrictMode>,
   document.getElementById('root')
 );
